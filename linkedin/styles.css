@@ -210,11 +210,13 @@ body {
 }
 
 .line.mid {
-  width: 50%;
+  width: 12rem;
+  background: #e5e5e5;
+
 }
 
 .line.xs {
-  width: 33%;
+  width: 8rem;
 }
 
 .side {

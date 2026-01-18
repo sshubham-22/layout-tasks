@@ -120,14 +120,23 @@ body {
 .cell {
   height: 20px;
   background: #e5e5e5;
-  border-radius: 6px;
+  border-radius: 0.25rem;
   margin-left: 16px;
+  
 }
 
-.cell.s { width: 48px; }
-.cell.m { width: 128px; }
-.cell.l { width: 192px; }
-.cell.xs { width: 80px; }
+.cell.s { 
+    width: 6rem;
+ }
+.cell.m { 
+    width: 8rem;
+ }
+.cell.l { 
+    width: 10rem;
+ }
+.cell.xs { 
+    width: 3rem;
+ }
 
 .actions {
   width: 80px;

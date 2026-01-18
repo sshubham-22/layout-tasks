@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML & CSS Assignments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      padding: 2rem;
+    }
+
+    h1 {
+      margin-bottom: 1.5rem;
+      font-size: 1.75rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 0.75rem;
+      padding: 1rem;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    .title {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    .hint {
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Links</h1>
+
+  <div class="grid">
+    <a href="./3-column-feed/"><div class="card"><div class="title">3 Column Feed</div></div></a>
+    <a href="./chat-messenger/"><div class="card"><div class="title">Chat Messenger</div></div></a>
+    <a href="./crm/"><div class="card"><div class="title">CRM</div></div></a>
+    <a href="./data-table/"><div class="card"><div class="title">Data Table</div></div></a>
+    <a href="./ecommerce/"><div class="card"><div class="title">Ecommerce</div></div></a>
+    <a href="./filter-grid/"><div class="card"><div class="title">Filter Grid</div></div></a>
+    <a href="./form-builder/"><div class="card"><div class="title">Form Builder</div></div></a>
+    <a href="./kanban/"><div class="card"><div class="title">Kanban Board</div></div></a>
+    <a href="./linkedin/"><div class="card"><div class="title">LinkedIn</div></div></a>
+    <a href="./search-results/"><div class="card"><div class="title">Search Results</div></div></a>
+    <a href="./settings-page/"><div class="card"><div class="title">Settings Page</div></div></a>
+    <a href="./sidebar-content/"><div class="card"><div class="title">Sidebar Content</div></div></a>
+    <a href="./youtube/"><div class="card"><div class="title">YouTube</div></div></a>
+    <a href="./map/"><div class="card"><div class="title">Map</div></div></a>
+  </div>
+
+</body>
+</html>

@@ -182,7 +182,7 @@ body {
   width: 48px;
   height: 40px;
   background: #fff;
-  border-radius: 8px;
+  border-radius: 0.25rem;
   border: 1px solid #d4d4d4;
 }
 

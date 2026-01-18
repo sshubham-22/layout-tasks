@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f5f5;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.header {
+  height: 56px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  gap: 16px;
+  background: #fff;
+}
+
+.title-placeholder {
+  height: 24px;
+  width: 192px;
+  background: #e5e5e5;
+  border-radius: 6px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.avatars {
+  display: flex;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background: #d4d4d4;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-left: -8px;
+}
+
+.button-placeholder {
+  height: 32px;
+  width: 96px;
+  background: #f0f0f0;
+  border-radius: 6px;
+}
+
+.board {
+  flex: 1;
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+  overflow-x: auto;
+  background: #f5f5f5;
+}
+
+.column {
+  width: 288px;
+  flex-shrink: 0;
+  background: #e5e5e5;
+  border-radius: 16px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.column-title {
+  height: 20px;
+  width: 96px;
+  background: #a3a3a3;
+  border-radius: 6px;
+}
+
+.column-menu {
+  height: 20px;
+  width: 24px;
+  background: #a3a3a3;
+  border-radius: 6px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.line {
+  height: 16px;
+  background: #e5e5e5;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.line.short {
+  width: 75%;
+  background: #f0f0f0;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.tag {
+  height: 20px;
+  width: 48px;
+  background: #e5e5e5;
+  border-radius: 6px;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  background: #e5e5e5;
+  border-radius: 50%;
+}
+
+.add-card {
+  height: 32px;
+  margin-top: 8px;
+  background: #d4d4d4;
+  border-radius: 8px;
+}

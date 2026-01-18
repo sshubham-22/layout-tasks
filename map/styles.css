@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 24px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+  height: 32px;
+  width: 128px;
+  background: #171717;
+  border-radius: 8px;
+}
+
+.search {
+  height: 40px;
+  flex: 1;
+  max-width: 640px;
+  background: #f5f5f5;
+  border-radius: 999px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.avatar {
+  height: 32px;
+  width: 32px;
+  background: #e5e5e5;
+  border-radius: 50%;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #e5e5e5;
+  
+}
+
+.tabs {
+  height: 48px;
+  display: flex;
+  gap: 8px;
+  padding: 0 16px;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.tab {
+  height: 32px;
+  width: 96px;
+  background: #f5f5f5;
+  border-radius: 999px;
+}
+
+.list {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: auto;
+}
+
+.item {
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+  border-radius: 16px;
+  
+}
+
+.item:hover {
+  background: #fafafa;
+}
+
+.thumb {
+  width: 288px;
+  height: 192px;
+  background: #e5e5e5;
+  border-radius: 16px;
+  flex-shrink: 0;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.line {
+  height: 16px;
+  background: #e5e5e5;
+  border-radius: 6px;
+}
+
+.line.sm {
+  width: 128px;
+}
+
+.line.md {
+  width: 50%;
+}
+
+.line.lg {
+  width: 75%;
+  height: 24px;
+}
+
+.line.light {
+  background: #f5f5f5;
+}
+
+.grow {
+  flex: 1;
+}
+
+.badge {
+  height: 24px;
+  width: 96px;
+  background: #d4d4d4;
+  border-radius: 6px;
+}
+
+.right {
+  width: 50%;
+  position: relative;
+  background: #e5e5e5;
+}
+
+.tools {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tool {
+  height: 40px;
+  width: 40px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.pin {
+  position: absolute;
+  height: 32px;
+  width: 96px;
+  background: #ffffff;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.pin.p1 {
+  top: 80px;
+  left: 128px;
+  width: 25px;
+}
+
+.pin.p2 {
+  top: 160px;
+  right: 192px;
+  width: 25px;
+}
+
+.pin.p3 {
+  bottom: 0px;
+  left: 192px;
+  width: 25px;
+}
+
+
+.pin.dark {
+  background: #171717;
+}

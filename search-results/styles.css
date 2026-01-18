@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f5f5;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+}
+
+.page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  overflow: hidden;
+}
+
+.top {
+  border-bottom: 0.0625rem solid #e5e5e5;
+  padding: 1rem 1.5rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.logo {
+  width: 6rem;
+  height: 2rem;
+  background: #d4d4d4;
+  border-radius: 0.375rem;
+}
+
+.search {
+  flex: 1;
+  max-width: 40rem;
+  height: 3rem;
+  background: #f5f5f5;
+  border: 0.0625rem solid #d4d4d4;
+  border-radius: 62.4375rem;
+}
+
+.fill {
+  flex: 1;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  background: #e5e5e5;
+  border-radius: 0.375rem;
+}
+
+.icon.round {
+  border-radius: 50%;
+}
+
+.tabs {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 8rem;
+}
+
+.tab {
+  width: 3.5rem;
+  height: 1.25rem;
+  background: #e5e5e5;
+  border-radius: 0.375rem;
+}
+
+.tab.small {
+  width: 2.5rem;
+}
+
+.tab.active {
+  background: #171717;
+}
+
+.body {
+  flex: 1;
+  overflow: auto;
+  padding: 1rem 1.5rem;
+}
+
+.content {
+  max-width: 40rem;
+  margin-left: 8rem;
+}
+
+.heading {
+  width: 12rem;
+  height: 1rem;
+  background: #e5e5e5;
+  border-radius: 0.375rem;
+  margin-bottom: 1.5rem;
+}
+
+.block {
+  margin-bottom: 2rem;
+}
+
+.label {
+  width: 16rem;
+  height: 0.75rem;
+  background: #f5f5f5;
+  border-radius: 0.375rem;
+  margin-bottom: 0.25rem;
+}
+
+.title {
+  width: 24rem;
+  height: 1.25rem;
+  background: #d4d4d4;
+  border-radius: 0.375rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  width: 100%;
+  height: 1rem;
+  background: #f5f5f5;
+  border-radius: 0.375rem;
+  margin-bottom: 0.25rem;
+}
+
+.line.short {
+  width: 75%;
+}

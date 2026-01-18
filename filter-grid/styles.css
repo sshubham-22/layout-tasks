@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  height: 64px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  gap: 16px;
+}
+
+.logo {
+  width: 128px;
+  height: 32px;
+  background: #111;
+  border-radius: 6px;
+}
+
+.search {
+  width: 320px;
+  height: 40px;
+  background: #f2f2f2;
+  border-radius: 999px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background: #e5e5e5;
+  border-radius: 50%;
+}
+
+.space {
+  flex: 1;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 288px;
+  border-right: 1px solid #e5e5e5;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  height: 20px;
+  background: #d4d4d4;
+  border-radius: 4px;
+}
+
+.label.small { 
+    width: 80px;
+}
+.label.medium { 
+    width: 96px;
+}
+.label.large { 
+    width: 112px; 
+}
+
+.input {
+  height: 40px;
+  background: #f2f2f2;
+  border-radius: 6px;
+}
+
+.progress {
+  height: 8px;
+  background: #e5e5e5;
+  border-radius: 999px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  height: 24px;
+  background: #f2f2f2;
+  border-radius: 6px;
+}
+
+.main {
+  flex: 1;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: auto;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 192px;
+  height: 24px;
+  background: #e5e5e5;
+  border-radius: 6px;
+}
+
+.action {
+  width: 128px;
+  height: 32px;
+  background: #f2f2f2;
+  border-radius: 6px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  flex: 1;
+}
+
+.card {
+  background: #f2f2f2;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img {
+  height: 192px;
+  background: #e5e5e5;
+}
+
+.card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 35px;
+}
+
+.line {
+  
+  background: #e5e5e5;
+  border-radius: 6px;
+}
+
+.line.wide { 
+    width: 75%;
+    height: 1.25rem;
+ }
+.line.mid { 
+    width: 50%;
+    height: 1rem;
+ }
+
+.badge {
+  width: 33.3%;
+  height: 1.5rem;
+  background: #d4d4d4;
+  border-radius: 6px;
+  margin-top: 8px;
+}

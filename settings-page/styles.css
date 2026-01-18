@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #fafafa;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+}
+
+.shell {
+  flex: 1;
+  display: flex;
+}
+
+.side {
+  width: 16rem;
+  border-right: 0.0625rem solid #e5e5e5;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  background: #fff;
+}
+
+.search {
+  margin-bottom: 1rem;
+}
+
+.search-bar {
+  height: 2.5rem;
+  background: #f5f5f5;
+  border-radius: 0.5rem;
+}
+
+.nav {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.nav:hover {
+  background: #f5f5f5;
+}
+
+.nav.active {
+  background: #e5e5e5;
+}
+
+.nav-text {
+  width: 6rem;
+  height: 1rem;
+  background: #d4d4d4;
+  border-radius: 0.375rem;
+}
+.first{
+background: #a3a3a3;
+}
+
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  height: 3.5rem;
+  border-bottom: 0.0625rem solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  background: #fff;
+}
+
+.title {
+  width: 6rem;
+  height: 1.5rem;
+  background: #d4d4d4;
+  border-radius: 0.375rem;
+}
+
+.content {
+  flex: 1;
+  padding: 1.5rem;
+  overflow: auto;
+  max-width: 40rem;
+}
+
+.block {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 0.0625rem solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.block-title {
+  width: 8rem;
+  height: 1.25rem;
+  background: #d4d4d4;
+  border-radius: 0.375rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.line {
+  width: 6rem;
+  height: 1rem;
+  background: #e5e5e5;
+  border-radius: 0.375rem;
+}
+
+.sub {
+  width: 12rem;
+  height: 0.75rem;
+  background: #f5f5f5;
+  border-radius: 0.375rem;
+}
+
+.input {
+  width: 16rem;
+  height: 2.5rem;
+  background: #f5f5f5;
+  border-radius: 0.5rem;
+}
+
+.toggle {
+  width: 3rem;
+  height: 1.5rem;
+  background: #d4d4d4;
+  border-radius: 62.4375rem;
+}
+
+.toggle.on {
+  background: #171717;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+.btn {
+  width: 6rem;
+  height: 2.5rem;
+  background: #e5e5e5;
+  border-radius: 0.25rem;
+}
+
+.btn.dark {
+  background: #171717;
+}
